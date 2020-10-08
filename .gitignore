@@ -12,7 +12,7 @@
 /coverage
 
 # anotations
-annotations
+annotations.md
 
 # production
 /build
