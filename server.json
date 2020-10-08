@@ -2,24 +2,72 @@
     "products": [
     {
       "id": 1,
-      "title": "Jaqueta de Couro",
+      "title": "Zeus",
+      "description": "Confortavel e poderoso",
+      "image": "https://i.ibb.co/xL1nQ0T/Ares.png",
       "price": 299.90
     },
     {
       "id": 2,
-      "title": "Óculos XingLing",
-      "price": 19.90
+      "title": "Corvus",
+      "description": "Discreto e resistente",
+      "image": "https://i.ibb.co/WkPddJc/Corvus.png",
+      "price": 249.90
     },
     {
       "id": 3,
-      "title": "Tênis MizuWave",
-      "price": 499.90
+      "title": "Falcon",
+      "description": "Estilo e segurança",
+      "image": "https://i.ibb.co/bdR6X1c/Falcon.png",
+      "price": 229.90
+    },
+    {
+      "id": 4,
+      "title": "Gaia",
+      "description": "Moderno e charmoso",
+      "image": "https://i.ibb.co/1RkYRZm/Gaia.png",
+      "price": 219.90
+    },
+    {
+      "id": 5,
+      "title": "Lens",
+      "description": "Resistente e confortavel",
+      "image": "https://i.ibb.co/FVsytYK/Lens.png",
+      "price": 389.90
+    },
+    {
+      "id": 6,
+      "title": "Pantheon",
+      "description": "Modelo exclusivo",
+      "image": "https://i.ibb.co/f4JfftM/Pantheon.png",
+      "price": 349.90
+    },
+    {
+      "id": 7,
+      "title": "Shadow",
+      "description": "Modelo tradicional",
+      "image": "https://i.ibb.co/qrHHDTb/Shadow.png",
+      "price": 419.90
+    },
+    {
+      "id": 8,
+      "title": "Skunk",
+      "description": "Despojado e seguro",
+      "image": "https://i.ibb.co/17TNwGt/Skunk.png",
+      "price": 189.90
+    },
+    {
+      "id": 9,
+      "title": "Sky",
+      "description": "Proteção e conforto",
+      "image": "https://i.ibb.co/C7FDxm9/Sky.png",
+      "price": 189.90
     }
   ],
   "stock": [
     {
       "id": 1,
-      "quantity": 3
+      "quantity": 2
     },
     {
       "id": 2,
@@ -27,7 +75,31 @@
     },
     {
       "id": 3,
+      "quantity": 3
+    },
+    {
+      "id": 4,
+      "quantity": 4
+    },
+    {
+      "id": 5,
       "quantity": 1
+    },
+    {
+      "id": 6,
+      "quantity": 2
+    },
+    {
+      "id": 7,
+      "quantity": 0
+    },
+    {
+      "id": 8,
+      "quantity": 2
+    },
+    {
+      "id": 9,
+      "quantity": 3
     }
   ]
 }

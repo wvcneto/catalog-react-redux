@@ -1,44 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+  Uma aplicação simples feita em poucas horas, com foco na utilização de redux e redux-saga, abordando a utilização dessas ferramentas de forma objetiva, de modo a utilizar suas principais funcionalidades.
+</h4>
 
-## Available Scripts
+## :rocket: Technologies
 
-In the project directory, you can run:
+- [Node.js](https://nodejs.org/)
+- [VS Code][vc] com [ESLint][vceslint], [Prettier](https://prettier.io/) e [EditorConfig](https://editorconfig.org/)
+- [Typescript](https://www.typescriptlang.org)
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [ReduxSaga](https://redux-saga.js.org/)
+- [StyledComponents](https://styled-components.com/)
+- [Axios](https://github.com/axios/axios)
+- [Immer](https://github.com/immerjs/immer)
+- [JsonServer](https://github.com/typicode/json-server)
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Install Dependencies.
 
-### `yarn test`
+```bash
+yarn
+```
+_(Durante o desenvolvimento o YARN foi usado como gerenciador de dependencias)_
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## Run JsonServer(FakeAPI)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+yarn server
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+_(JsonServer simula uma API permitindo manipular dados em um arquivo JSON)_
+_(http://localhost:3333)_
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run
 
-### `yarn eject`
+```bash
+yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_(http://localhost:3000)_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h5>Melhorias a serem implementadas conforme a disponibilidade de tempo</h5>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Melhorias de UI/UX
+- Calculo total das compras e exibição de quantidade disponivel para compra.
+- Alteração da apresentação do carrinho.
+- Opção para limpar carrinho
+- Criação de paginas(login/profile/landing/shop/cart/payment)
+- Rotas da aplicação
+- Types customizados para modulos do redux/redux-saga
+- Criação de uma API apropriada.
+- Autenticação / Controle de Perfil
+- E muito mais...
 
-## Learn More
+By Walter Neto (https://www.linkedin.com/in/wvcneto)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
