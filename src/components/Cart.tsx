@@ -7,9 +7,6 @@ import { ICartItem } from '../store/modules/cart/types';
 const Cart: React.FC = () => {
   const cart = useSelector<IState, ICartItem[]>(state => state.cart.items);
 
-  // eslint-disable-next-line no-console
-  console.log(cart);
-
   return (
     <table>
       <thead>
