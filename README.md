@@ -15,7 +15,6 @@
 - [Immer](https://github.com/immerjs/immer)
 - [JsonServer](https://github.com/typicode/json-server)
 
-
 ---
 
 ## Install Dependencies.
@@ -35,6 +34,7 @@ yarn server
 
 _(JsonServer simula uma API permitindo manipular dados em um arquivo JSON)_
 _(http://localhost:3333)_
+
 ---
 
 ## Run
