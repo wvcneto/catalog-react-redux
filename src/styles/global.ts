@@ -8,19 +8,17 @@ export default createGlobalStyle`
     outline: 0;
   }
 
+  html {
+    font-size: 62.5%;
+  }
+
   body {
+    font: 1.6rem;
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
     background: #2E2E33;
     color: #FCFCFA;
     -webkit-font-smoothing: antialiased;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  body, input, button {
-    font-family: 'Roboto Slab', serif;
-    font-size: 16px;
   }
 
   button {

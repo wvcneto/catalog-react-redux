@@ -1,10 +1,14 @@
 import React, { useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+
 import { IState } from '../../store';
 import { addProductToCartRequest } from '../../store/modules/cart/actions';
 import { IProduct } from '../../store/modules/cart/types';
 
-import { Container, Image, Content, Button } from './styles';
+import Button from '../Button';
+
+import { Container } from './styles';
 
 interface ICatalogItemProps {
   product: IProduct;
@@ -22,24 +26,21 @@ const CatalogItem: React.FC<ICatalogItemProps> = ({ product }) => {
   }, [dispatch, product]);
 
   return (
-    <Container>
-      <Image>
-        <img src={product.image} alt={product.title} />
-      </Image>
-      <Content>
-        <h2>{product.title}</h2>
-        <p>{product.description}</p>
-        <p>
-          <strong>
-            {' R$ '}
-            {product.price.toFixed(2)}
-          </strong>
-        </p>
+    <Container className="product">
+      <img src={product.image} alt={product.title} />
+      <div className="title">
+        <Link to="product">{product.title}</Link>
+      </div>
+      <div className="description">{product.description}</div>
+      <div className="price">
+        {' R$ '}
+        {product.price.toFixed(2)}
+      </div>
+      <div className="reviews">★★★★☆</div>
 
-        <Button type="button" onClick={handleAddProductToCart}>
-          {(hasFailedStockCheck && <span>Esgotado</span>) || 'Comprar'}
-        </Button>
-      </Content>
+      <Button type="button" onClick={handleAddProductToCart}>
+        {(hasFailedStockCheck && <span>Esgotado</span>) || 'Comprar'}
+      </Button>
     </Container>
   );
 };

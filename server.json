@@ -51,13 +51,6 @@
     },
     {
       "id": 8,
-      "title": "Skunk",
-      "description": "Despojado e seguro",
-      "image": "https://i.ibb.co/17TNwGt/Skunk.png",
-      "price": 189.90
-    },
-    {
-      "id": 9,
       "title": "Sky",
       "description": "Proteção e conforto",
       "image": "https://i.ibb.co/C7FDxm9/Sky.png",
@@ -96,10 +89,6 @@
     {
       "id": 8,
       "quantity": 2
-    },
-    {
-      "id": 9,
-      "quantity": 3
     }
   ]
 }

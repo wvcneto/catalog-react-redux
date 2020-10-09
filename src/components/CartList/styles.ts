@@ -1,15 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  position: fixed;
-  right: 0;
   text-align: center;
+  font-size: 2rem;
   margin: 4px;
+
   th {
-    width: 64px;
+    width: 25%;
+    font-weight: bold;
   }
 
-  background: #f1f1ff;
+  background: #fafaff;
   color: #0e0e00;
   border-radius: 8px;
 `;
