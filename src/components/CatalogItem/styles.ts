@@ -10,6 +10,7 @@ export const Container = styled.div.attrs(props => ({
   height: 100%;
   background: #131528;
   padding: 1rem;
+  border-radius: 12px;
 
   a {
     text-decoration: none;

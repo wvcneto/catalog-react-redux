@@ -22,7 +22,11 @@ const Header: React.FC = () => {
       <div className="menu">
         <Link to="/cart">
           <FiShoppingCart />
-          <span>{cart.length}</span>
+          <span>
+            {cart.reduce((total, item) => {
+              return total + item.quantity;
+            }, 0)}
+          </span>
         </Link>
         <Link to="/">
           <FiLogIn />

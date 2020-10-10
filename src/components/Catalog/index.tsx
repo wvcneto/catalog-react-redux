@@ -4,7 +4,7 @@ import api from '../../services/api';
 import { IProduct } from '../../store/modules/cart/types';
 import CatalogItem from '../CatalogItem';
 
-import { Container, Content } from './styles';
+import { Container } from './styles';
 
 const Catalog: React.FC = () => {
   const [catalog, setCatalog] = useState<IProduct[]>([]);
@@ -15,15 +15,13 @@ const Catalog: React.FC = () => {
 
   return (
     <Container className="main">
-      <Content>
-        <ul className="products">
-          {catalog.map(product => (
-            <li>
-              <CatalogItem key={product.id} product={product} />
-            </li>
-          ))}
-        </ul>
-      </Content>
+      <ul className="products">
+        {catalog.map(product => (
+          <li>
+            <CatalogItem key={product.id} product={product} />
+          </li>
+        ))}
+      </ul>
     </Container>
   );
 };

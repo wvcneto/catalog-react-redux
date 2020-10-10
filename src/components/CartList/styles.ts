@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div.attrs(props => ({
+  className: props.className,
+}))`
+  grid-area: main;
   text-align: center;
   font-size: 2rem;
   margin: 4px;
@@ -11,6 +14,6 @@ export const Container = styled.div`
   }
 
   background: #fafaff;
-  color: #0e0e00;
-  border-radius: 8px;
+  color: #131528;
+  border-radius: 12px;
 `;

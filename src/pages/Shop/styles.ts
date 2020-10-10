@@ -9,4 +9,6 @@ export const Container = styled.div`
   grid-template-columns: 1fr;
   grid-template-rows: 5rem 1fr 5rem;
   height: 100%;
+  position: relative;
+  min-height: 100vh;
 `;

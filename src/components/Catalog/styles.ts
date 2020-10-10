@@ -4,9 +4,7 @@ export const Container = styled.div.attrs(props => ({
   className: props.className,
 }))`
   grid-area: main;
-`;
 
-export const Content = styled.div`
   ul.products {
     display: flex;
     justify-content: center;

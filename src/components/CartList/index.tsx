@@ -32,6 +32,14 @@ const Cart: React.FC = () => {
           ))}
         </tbody>
       </table>
+      <p>
+        Total:
+        {cart
+          .reduce((total, item) => {
+            return total + item.product.price * item.quantity;
+          }, 0)
+          .toFixed(2)}
+      </p>
     </Container>
   );
 };

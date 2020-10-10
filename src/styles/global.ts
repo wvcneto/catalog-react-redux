@@ -16,8 +16,8 @@ export default createGlobalStyle`
     font: 1.6rem;
     font-family: 'Roboto Slab', serif;
     height: 100vh;
-    background: #2E2E33;
-    color: #FCFCFA;
+    background: #232627;
+    color: #fafaff;
     -webkit-font-smoothing: antialiased;
   }
 

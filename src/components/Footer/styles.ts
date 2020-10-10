@@ -8,5 +8,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+
+  position: absolute;
   bottom: 0;
+  width: 100%;
+  height: 4rem;
 `;

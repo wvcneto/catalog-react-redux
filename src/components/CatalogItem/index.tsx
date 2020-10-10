@@ -39,7 +39,8 @@ const CatalogItem: React.FC<ICatalogItemProps> = ({ product }) => {
       <div className="reviews">★★★★☆</div>
 
       <Button type="button" onClick={handleAddProductToCart}>
-        {(hasFailedStockCheck && <span>Esgotado</span>) || 'Comprar'}
+        {(hasFailedStockCheck && <span>Esgotado</span>) ||
+          'Adicionar ao Carrinho'}
       </Button>
     </Container>
   );
